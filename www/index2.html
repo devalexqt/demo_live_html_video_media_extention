@@ -1,0 +1,36 @@
+<html>
+  <header>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/socket.io.min.js"></script>
+
+    <!-- h264 decoder scripts
+    <script type="text/javascript" src="broadway/Decoder.js"></script>
+    <script type="text/javascript" src="broadway/YUVCanvas.js"></script>
+    <script type="text/javascript" src="broadway/Player.js"></script>
+
+ -->
+ <style type="text/css">
+ 	video::-webkit-media-controls-panel {
+ 	    display: flex !important;
+ 	    opacity: 1 !important;
+ 	}
+ </style>
+
+  </header>
+
+<body onload="initPage()">
+This is simple html page by Raspberry Pi<p/>
+<input type="button" onclick="startVideo()" value="Start"></input>
+<input type="button" onclick="stopVideo()" value="Stop"></input>
+<p/>
+
+<p/>
+<div id="fps_id">0 fps</div>
+<video id="video_id" controls autoplay ></video><p>
+<script>
+
+</script>
+  <p/>
+</body>
+</html>
+

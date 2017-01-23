@@ -1,0 +1,29 @@
+{
+  "name": "pi_h264",
+  "version": "1.0.0",
+  "description": "h264 live stream to brouser ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalexqt/pi_h264.git"
+  },
+  "keywords": [
+    "h264",
+    "pi",
+    "live"
+  ],
+"dependencies":{
+	"socket.io":"*",
+	"stream-split":"*"
+},
+  "author": "devalexqt@gmail/com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalexqt/pi_h264/issues"
+  },
+  "homepage": "https://github.com/devalexqt/pi_h264#readme"
+}
